@@ -22,8 +22,13 @@ const stringifyJSON = (content: string | JSManifestContent | JSLockManifestConte
   return JSON.stringify(content, null, 2) + '\n';
 };
 
-export const isFile = async (filePath: JSManifestFile): Promise<boolean> =>
-  (await stat(filePath)).isFile();
+export const isFile = async (filePath: JSManifestFile): Promise<boolean> => {
+  try {
+    return (await stat(filePath)).isFile();
+  } catch {
+    return false;
+  }
+};
 
 export const updateVersionInFile = async (
   filePath: Exclude<JSManifestFile, 'package-lock.json' | 'deno.jsonc'>,
